@@ -1,0 +1,79 @@
+/* Hamburger Menu Styles */
+@media only screen and (max-width: 770px) {
+label[for=toggle] {
+    display: block;
+}
+
+.wrapper:first-child .inner-wrapper {
+    position: relative;
+}
+
+.hamburger {
+    display: inline-block;
+}
+
+.top-main-nav li {
+    display: none;
+}
+
+.top-main-nav {
+    display: flex column;
+    background: blue;
+    position: relative;
+    top: 11px;
+    border-top: none;
+}
+
+.top-nav {
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    width: 23%;
+    top: 20%;
+    position: fixed;
+    border: none;
+    margin-bottom: 0;
+    text-align: right;
+    background: red;
+    z-index: 1;
+}
+
+.hamburger:checked ~ .top-main-nav li {
+    display: flex;
+    flex-direction: column;
+    padding-right: 14px;
+}
+
+.hamburger:checked ~ .top-main-nav {
+    background: rgba(28, 28, 28, 0.2);
+}
+
+.hamburger:checked ~ .top-main-nav {
+    display: block;
+    background: red;
+}
+
+label[for=toggle] {
+    position: absolute;
+    right: 0;
+    color: darken(rgb(89, 218, 195), 20);
+    font-size: 2rem;
+    text-transform: uppercase;
+    z-index: 1;
+    font-weight: 700;
+    background: transparent;
+}
+
+.hamburger {
+    display: none;
+}
+
+.singup {
+       display: none;
+}
+    
+.hidden {
+    display: block;
+}
+
+}

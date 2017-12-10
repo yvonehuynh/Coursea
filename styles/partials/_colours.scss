@@ -1,0 +1,65 @@
+$primaryColor: rgb(89, 218, 195);
+
+/* search bar */
+
+$searchColor :rgb(61, 61, 63);
+
+/* Accent Colours */
+
+$accentOne: rgb(42, 197, 251);
+$accentTwo: rgb(254, 29, 98);
+$accentThree: rgb(182, 213, 70);
+$accentFour: rgb(59, 159, 179);
+$accentFive: rgb(5, 175, 107);
+$accentSix: rgb(113, 74, 242);
+$accentSeven: rgb(191, 55, 97);
+$accentEight: rgb(42, 197, 251);
+
+
+/* Background */
+
+$backgroundSplash: rgb(249, 252, 252);
+
+/* nav and footer background */
+
+$footColour: rgb(28, 28, 28);
+
+/* Typography Colour */
+
+$textColour: rgb(76, 76, 76);
+
+/* Colours with Classes */
+
+/* Colours */
+
+.one {
+    color: $accentOne;
+}
+
+.two {
+    color: $accentTwo;
+}
+
+.three {
+    color: $accentThree;
+}
+
+.four {
+    color: $accentFour;
+}
+
+.five {
+    color: $accentFive;
+}
+
+.six {
+    color: $accentSix;
+}
+
+.seven {
+    color: $accentSeven;
+}
+
+.eight {
+    color: $accentEight;
+}
