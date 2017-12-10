@@ -94,7 +94,6 @@ input[name=toggle], /* label[for=toggle] */ {
     .top-main-nav {
         padding: 0;
         list-style: none;
-        width: 80%;
         margin-top: 10px;
         flex-shrink: 1;
     }
@@ -447,7 +446,7 @@ button[type=submit]:hover {
         height: 3px;
         width: 57px;
         background: #ffffff;
-        right: 507px;
+        right: 282px;
         top: 305px;
         transition: all 0.5s ease;
     }
@@ -458,7 +457,7 @@ button[type=submit]:hover {
         height: 3px;
         width: 57px;
         background: #59dac3;
-        right: 507px;
+        right: 282px;
         top: 305px;
         }
         }
@@ -524,7 +523,7 @@ p.medium {
         content: "";
         position: absolute;
         top: 233px;
-        right: 511px;
+          right: 282px;
         background: #fff;
         transition: all 0.5s ease;
     }
@@ -536,7 +535,7 @@ p.medium {
         width: 57px;
         background: #59dac3;
         top: 233px;
-        right: 511px;
+        right: 282px;
     }
 }
 

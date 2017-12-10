@@ -325,7 +325,6 @@ input[name=toggle] {
 .top-nav .top-main-nav {
   padding: 0;
   list-style: none;
-  width: 80%;
   margin-top: 10px;
   flex-shrink: 1;
 }
@@ -678,7 +677,7 @@ button[type=submit]:hover {
   height: 3px;
   width: 57px;
   background: #ffffff;
-  right: 507px;
+  right: 282px;
   top: 305px;
   transition: all 0.5s ease;
 }
@@ -689,7 +688,7 @@ button[type=submit]:hover {
   height: 3px;
   width: 57px;
   background: #59dac3;
-  right: 507px;
+  right: 282px;
   top: 305px;
 }
 
@@ -758,7 +757,7 @@ p.medium {
   content: "";
   position: absolute;
   top: 233px;
-  right: 511px;
+  right: 282px;
   background: #fff;
   transition: all 0.5s ease;
 }
@@ -770,7 +769,7 @@ p.medium {
   width: 57px;
   background: #59dac3;
   top: 233px;
-  right: 511px;
+  right: 282px;
 }
 
 .instructors {
@@ -1122,15 +1121,9 @@ a {
   .join-features .join-features-container {
     width: 48%;
   }
-  .top-main-nav a {
-    padding: 6px;
-  }
 }
 
 @media only screen and (max-width: 1000px) {
-  .top-main-nav a {
-    padding: 5px;
-  }
   /* Header */
   header .inner-wrapper {
     text-align: center;
@@ -1194,10 +1187,10 @@ a {
   }
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 877px) {
   /* Top navigation bar */
   .top-main-nav a {
-    padding: 3px;
+    padding: 15px;
   }
   /* Search Top Navigation */
   input#search {
@@ -1226,18 +1219,13 @@ a {
 }
 
 @media only screen and (max-width: 840px) {
-  /* Top Navigation Bar */
-  .top-main-nav a {
-    padding: 1px;
-  }
   /* Footer */
   .border-below::after {
     right: 53%;
   }
 }
 
-@media only screen and (max-width: 770px) {
-  /*  @import "menu-bar"; */
+@media only screen and (max-width: 777px) {
   /* Keyword Section */
   form[name=keyword] #keyword {
     width: 60%;
@@ -1276,7 +1264,7 @@ a {
   .top-nav .top-main-nav {
     display: flex column;
     position: relative;
-    top: 19px;
+    top: 29px;
     border-top: none;
     margin: 0;
   }
@@ -1301,8 +1289,8 @@ a {
   label[for=toggle] {
     position: absolute;
     right: 0;
-    color: #25a890;
-    font-size: 2rem;
+    color: #0a9c81;
+    font-size: 2.5rem;
     text-transform: uppercase;
     z-index: 1;
     font-weight: 700;
