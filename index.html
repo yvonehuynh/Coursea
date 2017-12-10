@@ -50,15 +50,10 @@
                         <li><a href="#">Sign Up</a></li>
                         <li><a href="#">Sign In</a></li>
                     </ul>
-                    
-
-                    <!-- <ul class="singup">
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Sign In</a></li>
-                    </ul> -->
                 </nav>
             </div>
         </section>
+
         <!-- Header -->
         <header>
             <div class="arrow-key">
@@ -471,25 +466,26 @@
             </section>
         </footer>
 
-    </div>
+    </div> <!-- end of wrapper -->
 <!-- Font Awesome CDN -->
 <script src="https://use.fontawesome.com/3259d81f6e.js"></script>
 
 <!-- JQuery CDN -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-</script>
 
+<!-- Scroll Reveal -->
 <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
-    <script>
+<script>
         window.sr = ScrollReveal({ reset: true });
         sr.reveal('header, .join-us, .subscribe, .courses, .search-section, .tutorial-section, .testimonial, footer', { duration: 2000, origin: 'bottom', mobile: false });
 
                $(".up5").click(function () {
                     $("html,body").animate({
-                        scrollTop: $(".events").offset().top - 135
-                    }, 2500);
-    </script>
+                        scrollTop: $(".events").offset().top - 235
+                    }, 1000);
+                })
+</script>
 
 </body>
 </html>
